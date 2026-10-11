@@ -52,3 +52,30 @@ This repository is intended to share the implementation and experimental workflo
 
 **Author:** Sanjeev Singh
 
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sanjeevs239/fake-job-detection-ml.git
+cd fake-job-detection-ml
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Prepare the dataset
+
+Place the required dataset CSV files in the `data/` directory, following the file paths referenced in the notebook.
+
+The dataset files are not included in this repository.
+
+### 4. Run the notebook
+
+Open `fake_job_detection_clean.ipynb` using Jupyter Notebook or JupyterLab and execute the cells in order.
+
+**Note:** The notebook requires the appropriate dataset files to be available locally before running the experiments.
+
